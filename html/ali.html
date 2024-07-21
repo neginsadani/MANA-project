@@ -6,49 +6,317 @@
     <link rel="stlyesheet" href="../style/ali.css" />
     <title>صفحه شخصی علی احمدی </title>
     <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        outline: none;
+
+      }
+
+      ::before,::after{box-sizing: border-box;}
+.aside{
+  width: 270px;
+  height: 100%;
+  background:#fdf9ff;
+  position: fixed;
+  left: 0;
+  top: 0 ;
+  z-index: 10;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e8dfec;
+}
+
+.section{
+  background: #f2f2fc;
+  min-height: 100vh;
+  display: block;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 1;
+}
+
+      html{
+        font-size: 62.5%;
+        overflow-x; hidden;
+        overflow-x:0;
+      }
+
+      html::-webkit-scrollbar{
+        width: 1rem;
+      }
+      html::-webkit-scrollbar-track{
+        background: #0d0d0d;
+      }
+      html::-webkit-scrollbar-thumb{
+        background: #0abcff;;
+        border-radius: 5rem;
+      }
+      a{
+        text-decoration: none;
+      }
   ul {
     list-style: none;
   }
-  .sidebar{
-    background-color: blue;
-    height: 100%;
-    width: 30%;
-    float: right;
-  }
-  . sidebar ul li{
-    margin: 10px;
-    padding: 10px;
-  }
-  .sidebar ul li a{
-    color: white;
-    font-size: 55px;
-    background-color: blue;
 
-  }
-  .content{
-    float: left;
-    width: 70%;
-    background-color: beige;
-  }
+body{
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'popis' sans-serif;
+}
+
+.main .home .nav-mine ul li{
+  display: inline-block;
+  margin: 5px;
+}
+.main .home .nav-mine{
+}
+.main .nav-mine{
+  text-align: center;
+  color: #0d0d0d;
+  background: #0abcff;
+  font-weight: 50px;
+  width: 100%;
+  height: auto;
+  padding: 5Px;
+  background-color: #0abcff;
+  text-align: center;
+  position: fixed;
+  margin-bottom: 30px;
+}
+.main  .nav-mine ul li {
+  display: inline-block;
+  padding: 5px;
+
+}
+.main  .nav-mine ul li a{
+  color: #000;
+  font-size: 20px;
+  font-weight: 50;
+}
+
+.main-bio  {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #0abcff;
+  padding: 30px;
+  margin: 20px 020px 0 10px;
+ 
+}
+.certificate{
+  width: 100%;
+  height: auto;
+  border: 1px solid #0abcff;
+  padding: 30px;
+}
+.main-bio .text-content{
+  width: 60%;
+  height: 100vh;
+  padding: 140px;
+  float: left;
+  display: inline-block;
+  line-height: 2;
+}
+.main-bio .text-content .read-more{
+  display: inline-block;
+  border: 1px solid #0d0d0d;
+  background-color: #0abcff;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.main-bio .text-content .read-more:hover{
+font-size: 25px;
+
+}
+.main-bio .pic-profile{
+  display: inline-block;
+  float:right;
+  
+  width: 40%;
+  height: 100vh;
+  padding: 5px;
+}
+.main-bio .pic-profile img{
+  height: 80vh;
+  width: 90%;
+margin: auto auto;
+border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+.about-me{
+  width: 100%;
+  height: auto;
+  border: 1px solid #0abcff;
+  padding: 30px;
+  margin: 20px 0 5px 10px;
+}
+.about-me h1,.certificate h1{
+  
+  position: relative;
+  margin-top: -60px;
+    position: relative;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #0abcff;
+    display: inline-block;
+
+}
+.about-me p{
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.certificate .timeline1{
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.certificate .timeline1 ul{
+  list-style: none;
+}
+.certificate .timeline1 ul li{
+  padding: 20px;
+  background-color: #0abcff;
+  color: #000;
+  border-radius:10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 49%;
+}
+.certificate .timeline1 ul li h1{
+  border-bottom: 1px solid #e8dfec;
+}
+.certificate p{
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.our-team{
+  background-color: #0abcff;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.our-team ul li{
+  display: inline-block;
+  padding: 5px;
+}
 
     </style>
   </head>
-  <body>
 
-<main>
-  <section class="sidebar"> 
-    <ul>
-      <li> <a href="ali.html"> ALi Ahmadi</a></li>
-      <li> <a href="ali.html"> ALi Ahmadi</a></li>
-      <li> <a href="ali.html"> ALi Ahmadi</a></li>
-      <li> <a href="ali.html"> ALi Ahmadi</a></li>
-      <li> <a href="ali.html"> ALi Ahmadi</a></li>
+
+
+    <div class="main">
+       
+      <nav class="nav-mine">
+        <ul>
+          
+          <li><a href="#main-bio"> Main-bio </a></li>
+          <li><a href="#about-me"> About me </a></li>
+          <li><a href="#bio"> biography </a></li>
+          <li><a href="#bio"> biography </a></li>
+          <li><a href="#bio"> biography </a></li>
+        </ul>
+       </nav>
+       
+       <br>
+       <div class="main-bio" id="main-bio">
+        <div class="text-content">
+            <h3> Hi....</h3>
+            <br>
+            <h2> this is Ali</h2>
+            <h3> I am a web designer....</h3>
+            <br>
+            <a href="ali.html" class="read-more">   Read More...</a>
+        </div>
+        <div class="pic-profile">
+         <a href="ali.html">  <img src="../img/logo.png" alt="ali" > </a>
+        </div>
+       </div>
+
+       </div>
+       
+       <div class="about-me" id="about-me">
+         <h1>About me</h1>
+        <p> hello every body....<br>
+        my name is ali . i was born in city of ghochan and i have master of degree computer networking.my name is ali . i was born in city of ghochan and i have master of degree computer networking
+        my name is ali . i was born in city of ghochan and i have master of degree computer networking
+        my name is ali . i was born in city of ghochan and i have master of degree computer networking
+        my name is ali . i was born in city of ghochan and i have master of degree computer networking
+        my name is ali . i was born in city of ghochan and i have master of degree computer networking 
+         this is a test text about me and coming soooon.</p>
+       </div>
+       <br>
+       <br><br>
+       <br>
+      
+       <br>
+           
+
+       <div class="certificate" id="certificate">
+        <h1> My certificate</h1>
+        <p> you can see my certificate here.</p>
+        <div class="timeline1">
+          <ul>
+            <li> <div class="timeline-content">
+              <h1>computer networking</h1>
+              <p>paraghraph about this certificate . i can write here.</p>
+            </div>
+          </li>
+
+          <li> <div class="timeline-content">
+            <h1>computer networking</h1>
+            <p>paraghraph about this certificate . i can write here.</p>
+          </div>
+        </li>
+
+        <li> <div class="timeline-content">
+          <h1>computer networking</h1>
+          <p>paraghraph about this certificate . i can write here.</p>
+        </div>
+      </li>
+      <li> <div class="timeline-content">
+        <h1>computer networking</h1>
+        <p>paraghraph about this certificate . i can write here.</p>
+      </div>
+    </li>
+
+          </ul>
+        </div>
+       </div>
+
+
+
+
+ <footer>
+  <div class="our-team">
+    
+    <ul >
+      <li> our team: </li>
+      <li> <a href="negin.html"> Negin</a></li>
+      <li> <a href="abbas.html"> Abbas</a></li>
+      <li> <a href="ali.html"> Ali</a></li>
+      <li> <a href="maryam.html"> Maryam</a></li>
     </ul>
-  </section>
-  <section class="content">
-kkljlkj
-  </section>
-</main>
+  </div>
+ </footer>
+      
+      
+
+
 
   </body>
 </html>
