@@ -1,10 +1,129 @@
+
+
 *{
+    box-sizing: border-box;
     margin: 0;
-    padding: 0
-    
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+
+  }
+
+  ::before,::after{box-sizing: border-box;}
+
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  
+  }
+
+  html::-webkit-scrollbar{
+    width: 1rem;
+  }
+  html::-webkit-scrollbar-track{
+    background: #0d0d0d;
+  }
+  html::-webkit-scrollbar-thumb{
+    background: #0abcff;;
+    border-radius: 5rem;
+  }
+  a{
+    text-decoration: none;
+  }
+ul {
+list-style: none;
 }
 
-ul{
-    text-decoration: none;
-    list-style: none;
+body{
+line-height: 1.5;
+font-size: 16px;
+font-family: 'popis' sans-serif;
+}
+.main-header{
+background-image:  url(../img/logo.png);
+
+padding-top: 20px;
+height: 143rch;
+width: 100%;
+}
+.container{
+width: 100%;
+background-color: #0abcff;
+height: 80px;
+padding: 20px;
+position: fixed;
+}
+.main-header .container .menu{
+float: left;
+padding: 5px;
+}
+
+.main-header .container .menu .nav-mine ul li{
+display: inline-block;
+margin: 5px;
+}
+
+
+.main-header .container .menu .nav-mine ul li a{
+color: #fff;
+font-size: 20px;
+padding: 5px;
+border-radius: 3px;
+}
+.main-header .container .menu .nav-mine ul li a:hover{
+color: #0abcff;
+background: #fff;
+}
+.main-header .container .logo{
+float: right;
+padding: 1px;
+}
+.main-header .container .logo img{
+border-radius: 5px;
+}
+
+.small-text {
+margin: auto auto;
+padding: auto;
+width: 60%;
+height: 100vh;
+padding: 200px;
+float: left;
+display: inline-block;
+line-height: 2;
+
+}
+.small-text  .text-about{
+font-size: 40px;
+}
+.small-text a{
+font-size: 30px;
+padding: 5px;
+color: #Fff;
+background-color: #0abcff;
+border-radius: 5px;
+text-align: center;
+}
+.small-text a:hover{
+font-size: 35px;
+color: chocolate;
+}
+.main{
+margin: 5px;
+padding: 20px;
+text-align: justify;
+border:1px solid #0abcff;
+border-radius: 5px;
+line-height: 2;
+height: auto;
+}
+.main h1{
+text-align: left;
+}
+.main .image{
+max-width: 20%;
+max-height: auto;
+border: 1px solid #0abcff;
+float: left;
+margin: 3px;
 }
