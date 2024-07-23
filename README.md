@@ -33,6 +33,6 @@ We welcome contributions! To contribute:
 5. Open a pull request.
 
 ## Contact
+- Email: ahmadi.world@gmail.com
 - Email: sadaninegin@gmail.com
 - Twitter: https://x.com/mnswryb28
-- LinkedIn: https://linkedin.com/in/yourname
