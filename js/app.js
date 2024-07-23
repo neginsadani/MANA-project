@@ -1,8 +1,7 @@
 const images = [
     "./img/ali/img.jpg",
     "./img/negin/negin.jpg",
-    "./img/home/a1.png",
-    "./img/abbas/code.jpg"
+    "./img/abbas/abbas-kot.jpg"
 ];
 
 let currentIndex = 0;
