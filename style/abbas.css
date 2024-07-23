@@ -238,7 +238,6 @@
     font-size: 30px;
     padding: 5px;
     color: #Fff;
-    background-color: gray;
     border-radius: 5px;
     text-align: center;
 }
@@ -248,7 +247,7 @@
     }
 .container{
     width: 100%;
-    background-color: gray;
+    background-color:#80808070;
     height: 46px;
     padding: 20px;
     position: fixed;
@@ -257,8 +256,6 @@
   margin: auto;
   padding: 20px;
   text-align: justify;
-  border: 1px solid black;
-  border-radius: 5px;
   line-height: 2;
   height: auto;
   width: 39rem;
