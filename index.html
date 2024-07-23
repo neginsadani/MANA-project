@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/main.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Home</title>
-  </head>
-  <body>
-    <div class="main">
-      <div class="home">
-         <!------------header-------------->
-                <div class="header">
-                   <img src="./img/home/main-header.jpg">
-                </div>
-               <div class="pic">
-<div class="team">
-<h1> <u>  MANA TEAM <u> </h1>
-<br>
-<p> Click On Our Pics To See Our Personal blogs. <p>
-<br><br><br>
-
-            <section class="gallery">
-     <div class="gallery-grid">
-            <div class="gallery-item">
-           <a href="./index.html">
-         <img src="./img/home/logo.png" alt="Ali">
-         <p>HOME</p>
-        </a>
-     </div>
-       <div class="gallery-item">
-           <a href="./html/abbas.html">
-          <img src="./img/abbas/abbas-kot.jpg" alt="abbas">
-         <p>ABBAS</p>
-           </a>
-       </div>
-       <div class="gallery-item">
-           <a href="./html/ali.html">
-         <img src="./img/ali/img.jpg" alt="Ali">
-         <p>ALI</p>
-        </a>
-     </div>
-     <div class="gallery-item">
-         <a href="./html/negin.html">
-         <img src="./img/negin/negin.JPG" alt="hacntosh">
-         <p>NEGIN</p>
-         </div>
-     </div>
-     </div>
-   </section>
-</div>
-     </div>
-       </div>
- </div>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-header" id="main-bio">
+        <div class="container">
+            <section class="menu">
+                <nav class="nav-mine">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#our-team">Our team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="logo">
+                <ul>
+                    <li><img src="./img/home/logo.svg" style="width: 19rem; height: 14rem; float: left; margin-top: -5rem; text-align: left; border:1px"></li>
+                </ul>
+            </section>
+        </div>
+        <div class="small-text">
+            <span style="font-size: 30px;" class="p-mana">MANA TEAM</span>
+            <br>
+            <p class="text-about" style="text-align: justify; font-size: 20px;">
+                Our website excels in creating stunning, highly functional sites, crafted by a professional team using cutting-edge technologies. If you’re seeking a unique and captivating online presence, look no further. To meet the talented minds behind our exceptional work, select one of the photos.
+            </p>
+        </div>
+        <!-- Slider Section -->
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <img class="slider-image" src="./img/abbas/abbas-kot.jpg" alt="Slider Image">
+                <button class="prev">Prev</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <section>
     <footer>
       <div class="footer-content">
         <div class="logo-title">
@@ -78,5 +70,7 @@
         <p>&copy; 2024 Your Company MANA All rights reserved.</p>
       </div>
     </footer>
-  </body>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
 </html>
