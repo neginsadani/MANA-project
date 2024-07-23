@@ -9,21 +9,12 @@ We were a class team of 4 members named Maryam, Ali, Negin, and Abbas. Therefore
 To view the blog:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/neginsadani/MANA-project
     ```
 2. Navigate to the project directory:
     ```bash
     cd repository
     ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-4. Start the project:
-    ```bash
-    npm start
-    ```
-
 ## Contribution
 We welcome contributions! To contribute:
 1. Fork this repository.
