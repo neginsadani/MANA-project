@@ -1,5 +1,3 @@
-// script.js
-
 const images = [
     "./img/ali/img.jpg",
     "./img/negin/negin.jpg",
