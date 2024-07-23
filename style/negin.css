@@ -223,13 +223,13 @@
     margin: auto auto;
     padding: auto;
     width: 79.2%;
-    height: 34vh;
+    height: 25vh;
     padding: 200px;
     display: inline-block;
     line-height: 2;
     background-size: cover;
     background-image: url(../img/negin/negin.JPG);
-    background-position: 1.5px -35rem;
+    background-position: 1.5px -15rem;
 }
 .small-text  .text-about{
     font-size: 40px;
