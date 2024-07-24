@@ -42,14 +42,16 @@ body {
   font-size: 16px;
   font-family: "popis" sans-serif;
   margin: 0 auto;
+  background-color: white;
 }
 
 .main-header {
+  background-image: url(../img/ali/ali-ahmadi.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repead;
   background-size: 100% 100%;
-  height: 143rch;
+  height: 100vh;
   width: 100%;
 }
 
@@ -95,31 +97,30 @@ body {
   margin: auto auto;
   width: 100%;
   height: 100vh;
-  padding: 200px;
+  padding: 150px;
   float: left;
   display: inline-block;
   line-height: 2;
   background-size: cover;
   background-image: url(../img/ali/ali-ahmadi.jpg);
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .text-about {
-  font-size: 40px;
+  font-size: 30px;
   width: 100%;
 }
 
 a {
-  font-size: 30px;
   padding: 5px;
   color: black;
   text-align: center;
 }
 
 a:hover {
-  color: #8080802d;
   background: rgba(249, 249, 249, 0.603);
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 .main {
@@ -165,6 +166,7 @@ a:hover {
   display: inline-block;
   border-left: 1px solid #344960;
   padding: 20px;
+  margin: 20px;
 }
 
 .main .right p {
@@ -208,6 +210,7 @@ a:hover {
   margin-bottom: 10px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
+  font-size: 15px;
 }
 .skils-item ul {
   list-style-type: none;
@@ -221,7 +224,7 @@ a:hover {
 }
 .skils-item li::before {
   content: "�";
-  color: #007bff;
+  color: #344960;
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -239,7 +242,7 @@ a:hover {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
@@ -298,7 +301,7 @@ a:hover {
 }
 
 .submit-btn {
-  background-color: #007bff;
+  background-color: #344960;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -308,7 +311,7 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 .submit-btn:hover {
-  background-color: #0056b3;
+  background-color: #344960;
 }
 .site-footer {
   background-color: #333;
@@ -330,7 +333,8 @@ a:hover {
   margin: 10px 0;
 }
 .copyright p a {
-  color: dodgerblue;
+  color: #dfe5eb;
+  font-size: 20px;
 }
 
 .social-links {
@@ -345,7 +349,7 @@ a:hover {
 }
 
 .social-links a:hover {
-  color: #007bff;
+  color: #344960;
 }
 
 @media (max-width: 768px) {
@@ -377,12 +381,14 @@ a:hover {
 
 .main h1 {
   margin-top: -50px;
-  background-color: gray;
   display: inline-block;
   padding: 5px;
   border-radius: 5px;
   text-align: left;
   float: left;
+}
+.main h2 {
+  margin-top: -35px;
 }
 .main p {
   text-align: center;
@@ -395,7 +401,7 @@ a:hover {
 .box2 {
   text-align: center;
   display: inline-block;
-  border: 1px solid #0abcff;
+  border: 1px solid #344960;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -418,7 +424,7 @@ a:hover {
 }
 
 .about {
-  background-color: #0abcff;
+  background-color: #344960;
 }
 
 .bg {
